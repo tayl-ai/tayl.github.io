@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tayl - Coming Soon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="background-animation">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        
+        <div class="content">
+            <div class="logo">
+                <h1 class="logo-text">Tayl</h1>
+                <div class="logo-subtitle">.in</div>
+            </div>
+            
+            <h2 class="main-heading">Something Amazing is Coming</h2>
+            <p class="description">Art Reimagined by Artificial Intelligence. Hang on tight.</p>
+            
+            <form class="email-form" id="emailForm">
+                <div class="input-wrapper">
+                    <input 
+                        type="email" 
+                        id="emailInput" 
+                        placeholder="Enter your email" 
+                        required
+                        autocomplete="email"
+                    >
+                    <button type="submit" class="submit-btn">
+                        <span>Notify Me</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <p class="form-message" id="formMessage"></p>
+            </form>
+            
+            <div class="social-links">
+                <a href="#" class="social-link" aria-label="Twitter">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 4.01C21.09 4.36 20.12 4.59 19.1 4.68C21.13 3.73 22.6 2.13 23.25 0.18C22.31 1.08 21.19 1.75 19.95 2.15C19.08 1.2 17.88 0.6 16.55 0.6C13.83 0.6 11.62 2.81 11.62 5.53C11.62 5.88 11.66 6.22 11.74 6.54C7.68 6.34 4.08 4.28 1.66 1.3C1.28 1.92 1.06 2.65 1.06 3.43C1.06 4.9 1.81 6.19 2.97 6.94C2.2 6.92 1.47 6.71 0.83 6.36C0.83 6.38 0.83 6.4 0.83 6.42C0.83 8.85 2.29 10.88 4.28 11.33C3.92 11.44 3.53 11.49 3.13 11.49C2.85 11.49 2.58 11.47 2.32 11.42C2.86 13.41 4.66 14.9 6.78 14.94C5.1 16.3 2.95 17.12 0.6 17.12C0.25 17.12 -0.09 17.1 -0.43 17.06C1.78 18.5 3.89 19.4 6.2 19.4C16.54 19.4 21.48 11.58 21.48 4.78C21.48 4.56 21.48 4.35 21.47 4.13C22.42 3.44 23.25 2.58 23.9 1.6L22 4.01Z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.447 20.452H16.893V14.883C16.893 13.555 16.866 11.846 15.041 11.846C13.188 11.846 12.905 13.291 12.905 14.785V20.452H9.351V9H12.765V10.561H12.811C13.288 9.661 14.448 8.711 16.181 8.711C19.782 8.711 20.448 11.081 20.448 14.169V20.452H20.447ZM5.337 7.433C4.193 7.433 3.274 6.507 3.274 5.367C3.274 4.228 4.194 3.305 5.337 3.305C6.477 3.305 7.401 4.228 7.401 5.367C7.401 6.507 6.476 7.433 5.337 7.433ZM7.119 20.452H3.555V9H7.119V20.452ZM22.225 0H1.771C0.792 0 0 0.774 0 1.729V22.271C0 23.227 0.792 24 1.771 24H22.222C23.2 24 24 23.227 24 22.271V1.729C24 0.774 23.2 0 22.222 0H22.225Z" fill="currentColor"/>
+                    </svg>
+                </a>
+                <a href="#" class="social-link" aria-label="GitHub">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.605 3.735 16.59C4.68 16.575 5.355 17.46 5.58 17.805C6.66 19.59 8.385 19.095 9.075 18.81C9.18 18.12 9.495 17.595 9.84 17.325C7.17 17.025 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 17.025 14.205 17.325C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C20.565 21.795 24 17.295 24 12C24 5.37 18.63 0 12 0Z" fill="currentColor"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; ADITYA SARKAR | SUNANDA DAS</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
